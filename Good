@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Παράθυρο Ειδοποίησης</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <button onclick="showCustomAlert()">Εμφάνιση Ειδοποίησης</button>
+
+  <div id="custom-alert" class="custom-alert">
+	<div class="alert-content">
+	  <span class="close-btn" onclick="closeCustomAlert()">&times;</span>
+	  <p>Κωδικός: 123456!</p>
+	</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
